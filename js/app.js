@@ -27,7 +27,7 @@ $(document).ready(function() {
                             }
                             catch (e) {
                                 calcScreen.empty();
-                                calcScreen.append(ERROR);
+                                calcScreen.text("ERROR");
                             }
                         });
 });
